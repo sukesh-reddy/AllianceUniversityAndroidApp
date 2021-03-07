@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Carnival2017"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gtek_technology"
+            android:textSize="50sp"
+            android:layout_marginTop="10dp"
+            android:text="carnival"
+            android:textColor="#000"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="converge"
+            android:textAlignment="center"
+            android:fontFamily="@font/gtek_technology"
+            android:textSize="15sp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/alliancecarnival2k17">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/neuropol_x_rg"
+            android:layout_margin="15dp"
+            android:textSize="15sp"
+            android:text="Alliance Carnival 2017 - Converge - a national-level, intercollegiate student festival - hosted and organized by Alliance University. The event witnessed an enthusiastic participation by students from Universities and other institutions of higher learning across the country promising a cultural extravaganza. Alliance Carnival 2017 - Converge is an electric mix of fun, frolic, food and festivities that provides participants a platform to showcase their talent across a multitude of dimensions-business acumen, technology insights and cultural appreciation. Events such as Best Manager, Fashion Show, Aura, Rock Band Competition, Rock of Ages, Group Dance, Baila etc. stand out not only for their popularity but also witnessed fierce yet healthy competition among participating Colleges and Universities.
+"           android:textColor="@color/quizzards"/>
+
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/carnival_fashion_show">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/sunburn_alliance2017">
+
+        </ImageView>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

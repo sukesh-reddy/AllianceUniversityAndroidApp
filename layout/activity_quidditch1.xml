@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quidditch1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:fontFamily="@font/harry_potter"
+            android:textSize="60sp"
+            android:layout_marginTop="10dp"
+            android:text="Quidditch"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Gaming Event"
+            android:textAlignment="center"
+            android:fontFamily="@font/harry_potter"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/neuropol_x_rg"
+            android:text="Quidditch was the first gaming event hosted by Club Apostrophe. Here are the event highlights."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/quidditch1_1"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/quidditch1_2"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/quidditch1_3"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/quidditch1_4"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/quidditch1_5"/>
+
+    </LinearLayout>
+
+</ScrollView>

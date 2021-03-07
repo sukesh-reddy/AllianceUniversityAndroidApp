@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.edu.alliance.alliance.News1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ASSOCHAM Education Excellence Awards 2018 for Industry - Academia Interface"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:fontFamily="@font/united_kingdom"
+            android:textSize="20sp"
+            android:layout_margin="15dp"
+            android:textColor="#000"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="245dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/assocham1"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alliance University received the ASSOCHAM Education Excellence Awards 2018 for being the “Best University for Promoting Industry - Academia Interface.” Our unique approach to structure the corporate interface according to industry cohorts, having senior industry experts as curriculum reviewers, association with the corporate on varied fronts, have been some of the reasons that helped us bag this award."
+            android:textSize="20sp"
+            android:fontFamily="@font/neuropol_x_rg"
+            android:layout_margin="15dp"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

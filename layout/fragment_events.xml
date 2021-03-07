@@ -1,0 +1,50 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.edu.alliance.alliance.Events">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/quidditch_gaming"
+            android:onClick="quidditch1" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:text="Past Events"
+            android:fontFamily="@font/death_hector"
+            android:textSize="20sp"
+            android:background="#ffe100"
+            android:onClick="past_events" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:text="Coming soon"
+            android:fontFamily="@font/death_hector"
+            android:textSize="20sp"
+            android:background="#000"
+            android:textColor="#fde001"
+            android:onClick="clicked" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:background="#fde001"
+            android:onClick="clicked" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Apl">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alliance Premier League, February and March 2018:"
+            android:fontFamily="@font/neuropol_x_rg"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:layout_margin="15dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The largest and the most loved sport of the country made the 2018 headway to Alliance. With auctions happening in Mid-February 2018, followed by matches that kept teams on their toes. The finals concluded in March 2018. The tournament had participation of 10 teams with about 130 students representing different programs and colleges of Alliance University."
+            android:layout_margin="15dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/neuropol_x_rg"/>
+    </LinearLayout>
+
+</ScrollView>

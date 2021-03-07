@@ -1,0 +1,66 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.edu.alliance.alliance.TimeTable">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TimeTables"
+            android:textSize="45sp"
+            android:fontFamily="@font/neuropol_x_rg"
+            android:textAlignment="center"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/lab_dsa"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/cseb1"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/cseb2"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/cseb3"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/cseb4"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/cseb5"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

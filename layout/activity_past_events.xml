@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PastEvents">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/quizzards"
+            android:onClick="quizzards1"
+            />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/quidditch_gaming"
+            android:onClick="quidditchf"
+            />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/alliancecarnival2k17"
+            android:onClick="carnival2017"
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+
+            android:text="Coming soon"
+            android:fontFamily="@font/death_hector"
+            android:textSize="20sp"
+            android:onClick="click"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

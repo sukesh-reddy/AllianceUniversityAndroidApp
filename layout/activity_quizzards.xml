@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quizzards">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:fontFamily="@font/harry_potter"
+            android:textSize="60sp"
+            android:layout_marginTop="10dp"
+            android:text="Quizzards"
+            android:textColor="#000"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Quiz Event"
+            android:textAlignment="center"
+            android:fontFamily="@font/harry_potter"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/neuropol_x_rg"
+            android:layout_margin="15dp"
+            android:textSize="18sp"
+            android:text="The Quizzards event was hosted by club Apostrophe. Here are the highlights of the event."
+            android:textColor="@color/quizzards"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/quizzards1">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/quizzards2">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/quizzards3">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/quizzards4">
+
+        </ImageView>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

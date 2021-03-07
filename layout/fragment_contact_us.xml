@@ -1,0 +1,62 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.edu.alliance.alliance.Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Us"
+            android:textColor="#881313"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            android:fontFamily="@font/neuropol_x_rg"
+            android:layout_margin="5dp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/alliance_topview"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Central Campus
+Chikkahagade Cross, Chandapura - Anekal Main Road, Anekal
+Bengaluru – 562 106, Karnataka,   India.
++91 80 3093 8100/8200 Mob.: +91 9886002500, 9008316363 | Fax: +91 80 26782048
+E-mail : enquiry@alliance.edu.in"
+            android:textSize="18sp"
+            android:fontFamily="@font/neuropol_x_rg"
+            android:layout_margin="15dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+
+Office of Admissions
+UG: +91 9620009825 | 91084 43123 | 91084 42143 | 98806 19618
+PG: +91 98860 02500 | 99002 29974 | 90083 16363"
+            android:textSize="18sp"
+            android:fontFamily="@font/neuropol_x_rg"
+            android:layout_margin="15dp"
+
+            />
+    </LinearLayout>
+
+
+
+
+</ScrollView>

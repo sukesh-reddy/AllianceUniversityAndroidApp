@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Business">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alliance School of Business Professor Wins the Best Academician of the Year Award – REAA-2018"
+            android:textSize="25sp"
+            android:layout_margin="15dp"
+            android:fontFamily="@font/neuropol_x_rg"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/business1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dr.Sunil Kumar from Alliance School of Business, Alliance University has received the Best Academician of the Year Award in Research and Academic Excellence and Academic Awards (REAA-2018) organized by Combined Society of Educational Research and Development (CSERD), India and N.L. Dalmia Institute of Management Studies and Research in Mumbai on March 10, 2018. This award is presented to him in recognition of his outstanding contribution to academics and research. Dr. Kumar is a Professor of Economics and a firm believer in the transformational power of education and approaches his teaching and learning in the classroom from that perspective. He actively fosters critical thinking and analytical problem solving skills in his students through his pedagogical methods. Dr. Kumar has developed a tool, “Occupational Interest Schedule” copyrighted by Government of India that enables in the identification of occupational interest of students. He is an active researcher and a consultant with many reputed publications."
+            android:textSize="20sp"
+            android:layout_margin="15dp"
+            android:fontFamily="@font/neuropol_x_rg"/>
+    </LinearLayout>
+
+
+
+</ScrollView>
